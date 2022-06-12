@@ -46,5 +46,6 @@ print(f" Elapsed time: {round(elapsed_time)} ms")
 print(" Total  Rolls  Percentage")
 for i in range(number_of_dice, (number_of_dice * 6) + 1):
     roll = results[i]
-    percentage = round(results[i] / 10000, 1)
+    # Calculate percentage rounded to 1 decimal place
+    percentage = round(roll / 10000, 1)
     print(f'{i:3} {roll:10,} {percentage:>6}%')
