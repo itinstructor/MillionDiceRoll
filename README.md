@@ -1,4 +1,4 @@
-# MillionDiceRoll
+# Million Dice Roll
 
 # Purpose
 Create Million Dollar Dice Roll in the following languages:
