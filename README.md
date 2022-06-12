@@ -7,13 +7,13 @@ Create Million Dollar Dice Roll in the following languages:
 - C++
 - C#
 
-Measure elapsed time to show the difference in speed between languages.
+Measure elapsed time to show the difference in calculation and randomization speed between languages.
 
 ## Changes
 - 06/12/2022: Initial Commit
 
 ## Credit    
-Adapted from: Million Dice Roll Statistics Simulator
+Adapted from: [Million Dice Roll Statistics Simulator](https://inventwithpython.com/bigbookpython/project46.html)
 
 By Al Sweigart [www.inventwithpython.com](www.inventwithpython.com)
 
