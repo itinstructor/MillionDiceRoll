@@ -8,16 +8,26 @@
 #include <unordered_map>
 #include <cmath>
 #include <chrono>
+#include <locale.h>
 int main()
 {
-    const int MIN = 1;
-    const int MAX = 6;
-    // Seed random number
+    const int MIN{1};
+    const int MAX{6};
+    int numberOfDice{0};
+    // Seed random number with random time
     srand(time(0));
     // Create a unordered_map HashTable key value pair dictionary
     std::unordered_map<int, int> myDict;
+    std::cout << " +-------------------------------------------+" << std::endl;
+    std::cout << " |--  Million Dice Roll Statics Simulator  --|" << std::endl;
+    std::cout << " +-------------------------------------------+" << std::endl;
+    std::cout << " How many dice do you want to roll: ";
 
-    for (int i = 2; i < 13; i++)
+    std::cin >> numberOfDice;
+
+    // Fill unordered_map (dictionary) keys with possible combinations of dice
+    // Initialize the values to 0
+    for (int i = numberOfDice; i < (numberOfDice * 6) + 1; i++)
     {
         myDict[i] = 0;
     }
@@ -37,7 +47,6 @@ int main()
         }
         // Add one to the total key to increment the number of times
         // the dice added up to that number
-        // myDict.put(total, myDict.get(total) + 1);
         myDict[total] = myDict[total] + 1;
     }
     // Finish calculation time
@@ -52,9 +61,12 @@ int main()
     for (int i = 2; i < 13; i++)
     {
         int rolls = myDict[i];
-        // Round to two decimal places
+        // Round to one decimal places
         double percentage = round((rolls * 100) / 10000.0) / 100.0;
-        std::cout << "  " << i << " - " << rolls << " - " << percentage << "%" << std::endl;
+        // std::cout << "  " << i << " - " << rolls << " - " << percentage << "%" << std::endl;
+        // Used to set commas in int rolls with '
+        setlocale(LC_NUMERIC, "");
+        printf("  %-4d %'7d %7.1f%s\n", i, rolls, percentage, "%");
     }
     return 0;
 }
