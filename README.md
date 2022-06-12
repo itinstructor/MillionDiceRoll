@@ -1,6 +1,6 @@
 # Million Dice Roll
 
-# Purpose
+## Purpose
 Create Million Dollar Dice Roll in the following languages:
 - Python
 - Java
