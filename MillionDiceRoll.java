@@ -19,7 +19,7 @@ public class MillionDiceRoll {
         // DecimalFormat if = new DecimalFormat("###,###,###");
         final int MIN = 1;
         final int MAX = 6;
-        int NumberOfDice = 0;
+        int numberOfDice = 0;
         // Create a HashTable key value pair dictionary
         Hashtable<Integer, Integer> myDict = new Hashtable<Integer, Integer>();
         System.out.println(" +-------------------------------------------+");
@@ -27,15 +27,15 @@ public class MillionDiceRoll {
         System.out.println(" +-------------------------------------------+");
         System.out.print(" How many dice do you want to roll: ");
 
-        NumberOfDice = Integer.parseInt(keyboard.nextLine());
+        numberOfDice = Integer.parseInt(keyboard.nextLine());
 
         // Fill dictionary keys with possible combinations of dice
         // Initialize the values to 0
-        for (int i = NumberOfDice; i < (NumberOfDice * 6) + 1; i++) {
+        for (int i = numberOfDice; i < (numberOfDice * 6) + 1; i++) {
             myDict.put(i, 0);
         }
 
-        System.out.println(" Simulating 1,000,000 rolls of " + NumberOfDice + " dice...");
+        System.out.println(" Simulating 1,000,000 rolls of " + numberOfDice + " dice...");
 
         // Record start calculation time
         // On a 64 bit sytem, long is 64 bits in size while int is 32 bits

@@ -14,11 +14,18 @@ namespace MillionDiceRoll
             // Create a HashTable key value pair dictionary
             Dictionary<int, int> myDict = new Dictionary<int, int>();
 
-            for (int i = 2; i < 13; i++)
+            Console.WriteLine(" +-------------------------------------------+");
+            Console.WriteLine(" |--  Million Dice Roll Statics Simulator  --|");
+            Console.WriteLine(" +-------------------------------------------+");
+            Console.Write(" How many dice do you want to roll: ");
+
+            int numberOfDice = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = numberOfDice; i < (numberOfDice * 6) + 1 ; i++)
             {
                 myDict.Add(i, 0);
             }
-            Console.WriteLine("\nSimulating 1,000,000 rolls of 2 dice...");
+            Console.WriteLine(" Simulating 1,000,000 rolls of " + numberOfDice + " dice...");
 
             // Record start calculation time
             startTime = DateTime.Now;
@@ -47,14 +54,15 @@ namespace MillionDiceRoll
             Console.WriteLine("Elapsed time: " + Math.Round(elapsedTime) + " ms");
 
             // Print result heading
-            Console.WriteLine("Total - Rolls - Percent");
+            Console.WriteLine(" Total  Rolls  Percent");
             for (int i = 2; i < 13; i++)
             {
                 int rolls = myDict[i];
                 double percentage = Math.Round(rolls / 10000.0);
-                Console.WriteLine("  "+ i + " - " + rolls + " - " + percentage + "%");
+                Console.WriteLine($" {i, 2} {rolls, 9:n0} {percentage, 6:n1}%");
             }
             // Pause execution
+            Console.WriteLine("\nPress Enter to exit");
             Console.ReadLine();
         }
     }
