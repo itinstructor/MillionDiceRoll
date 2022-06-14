@@ -1,5 +1,5 @@
 /**
- * Name: million_dice_roll.cpp
+ * Name: million_dice_roll_cpp.cpp
  * Written by:
  * Written on:
  * Purpose: Roll dice 1,000,000 times
@@ -66,7 +66,16 @@ int main()
         // std::cout << "  " << i << " - " << rolls << " - " << percentage << "%" << std::endl;
         // Used to set commas in int rolls with '
         setlocale(LC_NUMERIC, "");
+        // Formatting: % is the placeholder for the variable
+        // -4d aligns integers to the left at 4 spaces
+        // '7d aligns integers to the right at 7 spaces ' puts in a thousands separator
+        // 7.1f aligns floats to the right at 7 spaces
+        // s inserts the string "%"
+        // \n inserts a new line
         printf("  %-4d %'7d %7.1f%s\n", i, rolls, percentage, "%");
     }
+    
+    // Pause program before exit
+    system("pause");
     return 0;
 }

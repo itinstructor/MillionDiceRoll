@@ -2,9 +2,9 @@
 
 ## Purpose
 Create Million Dollar Dice Roll in the following languages:
-- Python (million_dice_roll.py)
+- Python (million_dice_roll_python.py)
 - Java (MillionDiceRoll.java)
-- C++ (million_dice_roll.cpp)
+- C++ (million_dice_roll_cpp.cpp)
 - C# (MillionDiceRoll)
 
 Measure elapsed time to show the difference in calculation and randomization speed between languages.

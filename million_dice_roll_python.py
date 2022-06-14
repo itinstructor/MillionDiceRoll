@@ -1,5 +1,5 @@
 """
-    Filename: million_dice_roll.py
+    Filename: million_dice_roll_python.py
     Created: 06/12/22
     Adapted from: Million Dice Roll Statistics Simulator
     By Al Sweigart www.inventwithpython.com
