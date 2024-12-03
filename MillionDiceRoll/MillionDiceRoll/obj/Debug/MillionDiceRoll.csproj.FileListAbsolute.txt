@@ -1,0 +1,24 @@
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe.config
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.pdb
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.AssemblyReference.cache
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.SuggestedBindingRedirects.cache
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.CoreCompileInputs.cache
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\Assignments Python\12 Data Science\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.pdb
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe.config
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.pdb
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.AssemblyReference.cache
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.SuggestedBindingRedirects.cache
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.CoreCompileInputs.cache
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\My Projects\Dice Statistics\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.pdb
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe.config
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\bin\Debug\MillionDiceRoll.pdb
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.AssemblyReference.cache
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.SuggestedBindingRedirects.cache
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.csproj.CoreCompileInputs.cache
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.exe
+Z:\_WNCC\Computer Science\My Projects\Million Dice Roll\MillionDiceRoll\MillionDiceRoll\obj\Debug\MillionDiceRoll.pdb
